@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1077657628444",
+    "firebase_url": "https://wanderlust-4c9b7.firebaseio.com",
+    "project_id": "wanderlust-4c9b7",
+    "storage_bucket": "wanderlust-4c9b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077657628444:android:d55d25f664dee8e4fc54d9",
+        "android_client_info": {
+          "package_name": "com.bugiadev.wanderlust"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077657628444-i1a3fr19kl4j3n66nv8hn9anjqdn5f7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw9WjQgPl-qrspq1WEhnaVi78QrPTEiWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077657628444-i1a3fr19kl4j3n66nv8hn9anjqdn5f7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

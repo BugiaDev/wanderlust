@@ -25,11 +25,15 @@ class WanderlustColors {
 
   static Color darkLoginColor = Color(0xFF32424f);
   static Color lightGreyColor = Color(0xFFfafafa);
-
-  static Color wanderlustGreen = Color(0xFF008489);
-  static Color wanderlustRed = Color(0xFFFE6569);
   static Color wanderlustBlack = Colors.black;
   static Color wanderlustWhite = Colors.white;
+  
+  // Ancient globe colors
+  static const wanderlustLightBrown = Color(0xff5e4725);
+  static const wanderlustVeryLightBrown = Color(0xffc0985d);
+  static const wanderlustRed = Color(0xffa57461);
+  static const wanderlustGreen = Color(0xff56655b);
+  static const wanderlustDarkBrown = Color(0xff3a2206);
 
   static List<Color> kitGradients = [
     Colors.black87,

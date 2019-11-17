@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:wanderlust/src/ui/themes/themes.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key key, this.title}) : super(key: key);
@@ -34,6 +35,46 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 4,
+      child: new Scaffold(
+        body: TabBarView(
+          children: [
+              new Container(
+                color: Colors.yellow,
+              ),
+              new Container(color: Colors.orange,),
+              new Container(
+                color: Colors.lightGreen,
+              ),
+              new Container(
+                color: Colors.red,
+              ),
+            ]
+        ),
+        bottomNavigationBar: new TabBar(
+            tabs: [
+              Tab(icon: new Icon(Icons.explore)),
+              Tab(icon: new Icon(Icons.stars)),
+              Tab(icon: new Icon(Icons.group)),
+              Tab(icon: new Icon(Icons.face))
+            ],
+            labelColor: WanderlustColors.wanderlustVeryLightBrown,
+            unselectedLabelColor: WanderlustColors.wanderlustDarkBrown,
+            indicatorSize: TabBarIndicatorSize.label,
+            indicatorPadding: EdgeInsets.all(5.0),
+            indicatorColor: WanderlustColors.wanderlustVeryLightBrown,
+          ),
+          backgroundColor: WanderlustColors.wanderlustLightBrown,
+      ),
+    );
+  }
+}
+
+
+/*
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -57,4 +98,4 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-}
+*/
